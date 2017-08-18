@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.js"></script>
+        <title>Test Canvas</title>
+        <meta name="description" content="">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+    <ul class="ToolList">
+        <li>Clear the canvas: <button id="clearCanvas" type="button">Clear</button></li>
+        <li>Choose a color: <div class="preview"></div>
+            <div class="colorpicker" style="">
+                <canvas id="picker" var="3" width="300" height="300"></canvas>
+            </div></li>
+        <li>
+            <span class="highlight">Choose a size: </span>
+            <button id="chooseSmall" type="button"></button>
+            <button id="chooseNormal" type="button"></button>
+            <button id="chooseLarge" type="button"></button>
+            <button id="chooseHuge" type="button"></button>
+        </li>
+    </ul>
+    <div class="image">
+        <div id="canvasDiv"></div>
+    </div>
+    <!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+    <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
